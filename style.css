@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsla(206, 91%, 66%, 1);
+    /* background: linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5AB2F7", endColorstr="#12CFF3", GradientType=1 ); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    padding: 2rem 2.5rem;
+    width: 80vw;
+    max-width: 37.5rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: rgba( 71, 16, 105, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25rem;
+}
+
+.search-wrapper button{
+    font-size: 1rem;
+    background-color: hsla(206, 91%, 66%, 1);
+    color: white;
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+::placeholder{
+    color: white;
+}
+.search-wrapper input{
+    font-size: 1rem;
+    padding: 0 0.62rem;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid hsla(206, 91%, 66%, 1);
+    outline: none;
+    color: white;
+}
+
+
+.container .cn-flag{
+    display: block;
+    width: 45%;
+    min-width: 7.5rem;
+    margin: 1.8rem auto 1.2rem auto;
+}
+
+.container h2{
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.datawrapper{
+    margin-bottom: 1rem;
+    letter-spacing: 0.3px;
+}
+.container h4{
+    display: inline;
+    font-weight: 400;
+    color: white;
+}
+.container h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(255, 70, 70);
+    margin-top: 1rem;
+}
+
+.container span{
+    color: rgb(33, 33, 33);
+}
